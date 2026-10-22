@@ -26,7 +26,8 @@ const {
   hasMap = false,
 } = Astro.props;
 
-const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+// Astro 7 + build.format 'file': la home llega como /index.html; se normaliza a / como en Astro 5
+const currentPath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
 ---
 
 <Base {title} {description} {lang} {canonical} {altLang} {ogImage} {hasTicker}>
