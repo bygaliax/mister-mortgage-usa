@@ -18,3 +18,7 @@ editor-pro-max/
 gdrive-oauth-setup/
 login-app/
 mister-mortgage-deploy/
+
+# Variables de entorno: nunca versionar secretos (auditoría 2026-10-22)
+.env*
+!.env.example
