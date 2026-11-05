@@ -1124,3 +1124,7 @@ body.has-ticker .contact-ticker { position: fixed; top: 0; left: 0; right: 0; z-
 .team-grid .team-info { flex: 1; display: flex; flex-direction: column; }
 .team-grid .team-contact { margin-top: auto; display: flex; flex-direction: column; align-items: stretch; align-self: stretch; text-align: inherit; gap: 4px; }
 .team-grid .team-contact a { white-space: nowrap; }
+.team-contact-shared { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 32px; margin-top: 40px; }
+.team-contact-shared a { font-weight: 600; color: var(--navy-mid); text-decoration: none; font-size: 1rem; }
+.team-contact-shared a span { color: var(--red); text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; margin-right: 6px; }
+.team-contact-shared a:hover { color: var(--red); }

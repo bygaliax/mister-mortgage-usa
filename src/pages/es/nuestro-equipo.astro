@@ -25,7 +25,7 @@ import MainLayout from '../../layouts/MainLayout.astro';
       <span class="section-label reveal" data-i18n="team.grid.label">Nuestros Profesionales</span>
       <h2 class="section-title reveal" data-i18n="team.grid.title">Experimentados. Con Licencia.<br /><em>Dedicados a Ti.</em></h2>
 
-      <div class="team-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:40px;margin-top:56px;">
+      <div class="team-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,320px));justify-content:center;gap:40px;margin-top:56px;">
 
         <div class="team-card">
           <div class="team-photo">
@@ -35,10 +35,6 @@ import MainLayout from '../../layouts/MainLayout.astro';
             <h3 data-i18n="team.member1.name">Hislay Conesa</h3>
             <span class="team-title" data-i18n="team.member1.title">Presidenta – CEO</span>
             <p data-i18n="team.member1.body">Fundadora y CEO de Mister Mortgage USA, con más de 20 años de experiencia en el mercado hipotecario del sur de Florida. Dedicada a ayudar a las familias a alcanzar el sueño de ser propietarios.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
@@ -50,10 +46,6 @@ import MainLayout from '../../layouts/MainLayout.astro';
             <h3 data-i18n="team.member2.name">Isleidy Rodriguez</h3>
             <span class="team-title" data-i18n="team.member2.title">Broker</span>
             <p data-i18n="team.member2.body">Broker hipotecaria con licencia y profunda experiencia en programas FHA, VA y convencionales. Isleidy está comprometida a encontrar la mejor solución para la situación financiera única de cada cliente.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
@@ -65,13 +57,13 @@ import MainLayout from '../../layouts/MainLayout.astro';
             <h3 data-i18n="team.member3.name">Luisa Taylor</h3>
             <span class="team-title" data-i18n="team.member3.title">Oficial de Préstamos</span>
             <p data-i18n="team.member3.body">Oficial de préstamos bilingüe especializada en guiar a compradores primerizos e inversionistas a través del proceso hipotecario desde la precalificación hasta el cierre. Habla inglés y español.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
+      </div>
+      <div class="team-contact-shared reveal">
+        <a href="tel:+13056151515"><span>Teléfono</span> (305) 615-1515</a>
+        <a href="https://wa.me/13052141515" target="_blank" rel="noopener"><span>WhatsApp</span> (305) 214-1515</a>
       </div>
     </div>
   </section>
