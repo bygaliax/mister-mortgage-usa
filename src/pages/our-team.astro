@@ -25,7 +25,7 @@ import MainLayout from '../layouts/MainLayout.astro';
       <span class="section-label reveal" data-i18n="team.grid.label">Our Professionals</span>
       <h2 class="section-title reveal" data-i18n="team.grid.title">Experienced. Licensed.<br /><em>Dedicated to You.</em></h2>
 
-      <div class="team-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:40px;margin-top:56px;">
+      <div class="team-grid reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,320px));justify-content:center;gap:40px;margin-top:56px;">
 
         <div class="team-card">
           <div class="team-photo">
@@ -35,10 +35,6 @@ import MainLayout from '../layouts/MainLayout.astro';
             <h3 data-i18n="team.member1.name">Hislay Conesa</h3>
             <span class="team-title" data-i18n="team.member1.title">President – CEO</span>
             <p data-i18n="team.member1.body">Founder and CEO of Mister Mortgage USA, with over 20 years of experience in the South Florida mortgage market. Dedicated to helping families achieve the dream of homeownership.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
@@ -50,10 +46,6 @@ import MainLayout from '../layouts/MainLayout.astro';
             <h3 data-i18n="team.member2.name">Isleidy Rodriguez</h3>
             <span class="team-title" data-i18n="team.member2.title">Broker</span>
             <p data-i18n="team.member2.body">Licensed mortgage broker with deep expertise in FHA, VA, and conventional loan programs. Isleidy is committed to finding the best solution for every client's unique financial situation.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
@@ -65,13 +57,13 @@ import MainLayout from '../layouts/MainLayout.astro';
             <h3 data-i18n="team.member3.name">Luisa Taylor</h3>
             <span class="team-title" data-i18n="team.member3.title">Loan Officer</span>
             <p data-i18n="team.member3.body">Bilingual loan officer specializing in guiding first-time buyers and investors through the mortgage process from pre-qualification to closing. Fluent in English and Spanish.</p>
-            <div class="team-contact">
-              <a href="tel:+13056151515">Tel. (305) 615-1515</a>
-              <a href="https://wa.me/13052141515" target="_blank" rel="noopener">WhatsApp (305) 214-1515</a>
-            </div>
           </div>
         </div>
 
+      </div>
+      <div class="team-contact-shared reveal">
+        <a href="tel:+13056151515"><span>Phone</span> (305) 615-1515</a>
+        <a href="https://wa.me/13052141515" target="_blank" rel="noopener"><span>WhatsApp</span> (305) 214-1515</a>
       </div>
     </div>
   </section>
