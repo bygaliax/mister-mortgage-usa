@@ -603,7 +603,7 @@ window.addEventListener('load', initCarousel);
 
 // ─── WHATSAPP CHAT WIDGET ───
 (function() {
-  var WA_NUMBER = '13056151515';
+  var WA_NUMBER = '13052141515';
 
   var PAGE_MESSAGES = {
     en: {
