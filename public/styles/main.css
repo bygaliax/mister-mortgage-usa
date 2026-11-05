@@ -1117,3 +1117,10 @@ body.has-ticker .contact-ticker { position: fixed; top: 0; left: 0; right: 0; z-
   .hero-trust { justify-content: flex-start; }
   .hero-trust-item { text-align: left; }
 }
+
+/* Equipo: fichas a la misma altura y contactos alineados abajo (5-nov-2026) */
+.team-grid .team-card { display: flex; flex-direction: column; }
+.team-grid .team-photo { background: #ECEEF2; }
+.team-grid .team-info { flex: 1; display: flex; flex-direction: column; }
+.team-grid .team-contact { margin-top: auto; display: flex; flex-direction: column; align-items: stretch; align-self: stretch; text-align: inherit; gap: 4px; }
+.team-grid .team-contact a { white-space: nowrap; }
