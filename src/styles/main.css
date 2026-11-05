@@ -931,3 +931,10 @@ body.has-ticker .contact-ticker { position: fixed; top: 0; left: 0; right: 0; z-
 .loan-card-img { height: 220px; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; margin: -2rem -2rem 1.25rem -2rem; width: calc(100% + 4rem); }
 .loan-card-img img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; transition: transform .4s ease; }
 .loan-card:hover .loan-card-img img { transform: scale(1.06); }
+
+/* Equipo: fichas a la misma altura y contactos alineados abajo (5-nov-2026) */
+.team-grid .team-card { display: flex; flex-direction: column; }
+.team-grid .team-photo { background: #ECEEF2; }
+.team-grid .team-info { flex: 1; display: flex; flex-direction: column; }
+.team-grid .team-contact { margin-top: auto; display: flex; flex-direction: column; align-items: stretch; align-self: stretch; text-align: inherit; gap: 4px; }
+.team-grid .team-contact a { white-space: nowrap; }
